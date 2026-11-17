@@ -1,0 +1,7 @@
+﻿cost_id,campaign_id,cost_type,description,amount,allocation_rule
+CST_01,CT1_FLASH,DIRECT,Facebook Ads & Banner Flash Sale,1200000,Direct to CT1
+CST_02,CT2_LOYAL,DIRECT,SMS Brandname & Thiệp quà tặng khách VIP,600000,Direct to CT2
+CST_03,CT3_COMBO,DIRECT,Tờ rơi & POSM tại quầy Combo Bếp,800000,Direct to CT3
+CST_04,CT4_SMART,DIRECT,KOL Tiktok Review Robot & Máy lọc,2500000,Direct to CT4
+CST_05,ALL,OVERHEAD,Chi phí nền tảng vận hành e-commerce & kho bãi,2000000,Revenue-share
+CST_06,,DIRECT,Chi phí in ấn tờ rơi chưa rõ chiến dịch,500000,

@@ -1,0 +1,656 @@
+{
+  "status": "NEEDS_HUMAN_REVIEW",
+  "summary_kpis": {
+    "total_campaigns": 4,
+    "total_net_revenue": 12170000.0,
+    "total_contribution_margin": -6943500.0,
+    "total_exceptions_detected": 3
+  },
+  "pnl_table": [
+    {
+      "campaign_id": "CT4_SMART",
+      "campaign_name": "Gia Dụng Thông Minh Online",
+      "orders_count": 2,
+      "gross_revenue": 9800000.0,
+      "returns_value": 4200000.0,
+      "return_rate_pct": 42.86,
+      "net_revenue": 5600000.0,
+      "cogs": 3500000.0,
+      "gross_profit": 2100000.0,
+      "discount_cost": 1176000.0,
+      "direct_cost": 3500000.0,
+      "allocated_overhead": 1380443.714050945,
+      "total_cost": 6056443.714050945,
+      "contribution_margin": -3956443.714050945,
+      "contribution_margin_pct": -70.65,
+      "roi_pct": -65.33
+    },
+    {
+      "campaign_id": "CT2_LOYAL",
+      "campaign_name": "Tri Ân Khách Quen",
+      "orders_count": 3,
+      "gross_revenue": 3745000.0,
+      "returns_value": 1000000.0,
+      "return_rate_pct": 26.7,
+      "net_revenue": 2745000.0,
+      "cogs": 1395000.0,
+      "gross_profit": 1350000.0,
+      "discount_cost": 801250.0,
+      "direct_cost": 800000.0,
+      "allocated_overhead": 676663.9276910436,
+      "total_cost": 2277913.9276910434,
+      "contribution_margin": -927913.9276910434,
+      "contribution_margin_pct": -33.8,
+      "roi_pct": -40.74
+    },
+    {
+      "campaign_id": "CT1_FLASH",
+      "campaign_name": "Flash Sale Mùa Hè",
+      "orders_count": 2,
+      "gross_revenue": 3825000.0,
+      "returns_value": 0.0,
+      "return_rate_pct": 0.0,
+      "net_revenue": 3825000.0,
+      "cogs": 2275000.0,
+      "gross_profit": 1550000.0,
+      "discount_cost": 666250.0,
+      "direct_cost": 1500000.0,
+      "allocated_overhead": 942892.3582580115,
+      "total_cost": 3109142.3582580118,
+      "contribution_margin": -1559142.3582580118,
+      "contribution_margin_pct": -40.76,
+      "roi_pct": -50.15
+    },
+    {
+      "campaign_id": "CT3_COMBO",
+      "campaign_name": "Combo Nhà Bếp Tiện Lợi",
+      "orders_count": 0,
+      "gross_revenue": 0.0,
+      "returns_value": 0.0,
+      "return_rate_pct": 0.0,
+      "net_revenue": 0.0,
+      "cogs": 0.0,
+      "gross_profit": 0.0,
+      "discount_cost": 0.0,
+      "direct_cost": 500000.0,
+      "allocated_overhead": 0.0,
+      "total_cost": 500000.0,
+      "contribution_margin": -500000.0,
+      "contribution_margin_pct": 0.0,
+      "roi_pct": -100.0
+    }
+  ],
+  "attributed_orders_sample": [
+    {
+      "order_id": "ORD_B01",
+      "date": "2026-10-28",
+      "channel": "Online",
+      "product_id": "SP04",
+      "quantity": 1,
+      "unit_price": 4200000,
+      "status": "RETURNED",
+      "return_date": "2026-11-15",
+      "return_amount": 4200000,
+      "gross_amount": 4200000,
+      "cogs": 2700000,
+      "category": "Gia dụng thông minh",
+      "unit_cogs": 2700000,
+      "total_cogs": 2700000,
+      "campaign_id": "CT4_SMART",
+      "promo_code": [
+        "SMART12"
+      ],
+      "discount_amount": 504000,
+      "attributed_gross": 4200000.0,
+      "attributed_return": 4200000.0,
+      "attributed_net_rev": 0.0,
+      "attributed_cogs": 0.0,
+      "attributed_discount": 504000.0,
+      "attribution_note": "Gán trực tiếp theo mã ưu đãi duy nhất"
+    },
+    {
+      "order_id": "ORD_B02",
+      "date": "2026-10-15",
+      "channel": "Online",
+      "product_id": "SP01",
+      "quantity": 1,
+      "unit_price": 1850000,
+      "status": "COMPLETED",
+      "return_date": NaN,
+      "return_amount": 0,
+      "gross_amount": 1850000,
+      "cogs": 1150000,
+      "category": "Thiết bị làm mát",
+      "unit_cogs": 1150000,
+      "total_cogs": 1150000,
+      "campaign_id": "CT2_LOYAL",
+      "promo_code": [
+        "FLASH15",
+        "VIP10"
+      ],
+      "discount_amount": 462500,
+      "attributed_gross": 925000.0,
+      "attributed_return": 0.0,
+      "attributed_net_rev": 925000.0,
+      "attributed_cogs": 575000.0,
+      "attributed_discount": 231250.0,
+      "attribution_note": "Phân bổ tỷ lệ 50% tránh trùng lặp doanh thu"
+    },
+    {
+      "order_id": "ORD_B02",
+      "date": "2026-10-15",
+      "channel": "Online",
+      "product_id": "SP01",
+      "quantity": 1,
+      "unit_price": 1850000,
+      "status": "COMPLETED",
+      "return_date": NaN,
+      "return_amount": 0,
+      "gross_amount": 1850000,
+      "cogs": 1150000,
+      "category": "Thiết bị làm mát",
+      "unit_cogs": 1150000,
+      "total_cogs": 1150000,
+      "campaign_id": "CT1_FLASH",
+      "promo_code": [
+        "FLASH15",
+        "VIP10"
+      ],
+      "discount_amount": 462500,
+      "attributed_gross": 925000.0,
+      "attributed_return": 0.0,
+      "attributed_net_rev": 925000.0,
+      "attributed_cogs": 575000.0,
+      "attributed_discount": 231250.0,
+      "attribution_note": "Phân bổ tỷ lệ 50% tránh trùng lặp doanh thu"
+    },
+    {
+      "order_id": "ORD_B03",
+      "date": "2026-10-16",
+      "channel": "Offline",
+      "product_id": "SP06",
+      "quantity": 10,
+      "unit_price": 250000,
+      "status": "PARTIAL_RETURN",
+      "return_date": "2026-10-20",
+      "return_amount": 1000000,
+      "gross_amount": 2500000,
+      "cogs": 110000,
+      "category": "Đồ dùng gia đình",
+      "unit_cogs": 110000,
+      "total_cogs": 1100000,
+      "campaign_id": "CT2_LOYAL",
+      "promo_code": [
+        "VIP10"
+      ],
+      "discount_amount": 250000,
+      "attributed_gross": 2500000.0,
+      "attributed_return": 1000000.0,
+      "attributed_net_rev": 1500000.0,
+      "attributed_cogs": 660000.0,
+      "attributed_discount": 250000.0,
+      "attribution_note": "Gán trực tiếp theo mã ưu đãi duy nhất"
+    },
+    {
+      "order_id": "ORD_B04",
+      "date": "2026-10-20",
+      "channel": "Online",
+      "product_id": "SP07",
+      "quantity": 1,
+      "unit_price": 320000,
+      "status": "COMPLETED",
+      "return_date": NaN,
+      "return_amount": 0,
+      "gross_amount": 320000,
+      "cogs": 160000,
+      "category": "Đồ dùng gia đình",
+      "unit_cogs": 160000,
+      "total_cogs": 160000,
+      "campaign_id": "CT2_LOYAL",
+      "promo_code": [
+        "FREE100"
+      ],
+      "discount_amount": 320000,
+      "attributed_gross": 320000.0,
+      "attributed_return": 0.0,
+      "attributed_net_rev": 320000.0,
+      "attributed_cogs": 160000.0,
+      "attributed_discount": 320000.0,
+      "attribution_note": "Gán trực tiếp theo mã ưu đãi duy nhất"
+    },
+    {
+      "order_id": "ORD_B05",
+      "date": "2026-10-05",
+      "channel": "Offline",
+      "product_id": "SP02",
+      "quantity": 2,
+      "unit_price": 1450000,
+      "status": "COMPLETED",
+      "return_date": NaN,
+      "return_amount": 0,
+      "gross_amount": 2900000,
+      "cogs": 850000,
+      "category": "Đồ dùng nhà bếp",
+      "unit_cogs": 850000,
+      "total_cogs": 1700000,
+      "campaign_id": "CT1_FLASH",
+      "promo_code": [
+        "FLASH15"
+      ],
+      "discount_amount": 435000,
+      "attributed_gross": 2900000.0,
+      "attributed_return": 0.0,
+      "attributed_net_rev": 2900000.0,
+      "attributed_cogs": 1700000.0,
+      "attributed_discount": 435000.0,
+      "attribution_note": "Gán trực tiếp theo mã ưu đãi duy nhất"
+    },
+    {
+      "order_id": "ORD_B06",
+      "date": "2026-10-10",
+      "channel": "Online",
+      "product_id": "SP05",
+      "quantity": 2,
+      "unit_price": 2800000,
+      "status": "COMPLETED",
+      "return_date": NaN,
+      "return_amount": 0,
+      "gross_amount": 5600000,
+      "cogs": 1750000,
+      "category": "Gia dụng thông minh",
+      "unit_cogs": 1750000,
+      "total_cogs": 3500000,
+      "campaign_id": "CT4_SMART",
+      "promo_code": [
+        "SMART12"
+      ],
+      "discount_amount": 672000,
+      "attributed_gross": 5600000.0,
+      "attributed_return": 0.0,
+      "attributed_net_rev": 5600000.0,
+      "attributed_cogs": 3500000.0,
+      "attributed_discount": 672000.0,
+      "attribution_note": "Gán trực tiếp theo mã ưu đãi duy nhất"
+    }
+  ],
+  "exceptions_list": [
+    {
+      "type": "PENDING_ALLOCATION_RULE",
+      "item_id": "CST_B5",
+      "description": "Chi phí chung [Phí thuê server và quản trị chung] (3,000,000 đ) chưa được phê duyệt tiêu thức phân bổ",
+      "impact": "Có thể làm sai lệch biên lợi nhuận của các chương trình",
+      "status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "type": "LATE_RETURN",
+      "item_id": "ORD_B01",
+      "description": "Đơn hàng hoàn trả sau kỳ kết thúc chiến dịch (2026-11-15)",
+      "impact": "Giảm trừ 4,200,000 đ doanh thu của chương trình CT4_SMART",
+      "status": "AUTO_RECONCILED_WITH_NOTE"
+    },
+    {
+      "type": "MULTI_TOUCH_CONFLICT",
+      "item_id": "ORD_B02",
+      "description": "Đơn hàng áp dụng đồng thời 2 chương trình: ['CT2_LOYAL', 'CT1_FLASH']",
+      "impact": "Nếu tính riêng từng báo cáo sẽ trùng lặp 1,850,000 đ doanh thu",
+      "status": "APPLIED_PROPORTIONAL_SPLIT"
+    }
+  ],
+  "recommendations": [
+    {
+      "campaign_id": "CT4_SMART",
+      "campaign_name": "Gia Dụng Thông Minh Online",
+      "decision": "DỪNG (DISCONTINUE)",
+      "decision_badge": "danger",
+      "primary_reason": "Lợi nhuận đóng góp âm (-3,956,444 đ) hoặc tỷ lệ hoàn hàng vượt ngưỡng báo động (42.9%).",
+      "financial_snapshot": {
+        "net_revenue": 5600000.0,
+        "contribution_margin": -3956443.714050945,
+        "contribution_margin_pct": -70.65,
+        "return_rate_pct": 42.86,
+        "roi_pct": -65.33,
+        "total_cost": 6056443.714050945
+      },
+      "action_items": [
+        "Dừng ngay việc cấp ngân sách và đóng mã khuyến mãi trên tất cả các kênh.",
+        "Thu hồi tồn kho và điều tra nguyên nhân tỷ lệ trả hàng cao (do lỗi mô tả sản phẩm, chất lượng kỹ thuật hay giao vận chậm).",
+        "Rà soát lại toàn bộ hợp đồng KOL/quảng cáo để cắt giảm chi phí phát sinh."
+      ],
+      "data_needed": [
+        "Báo cáo chi tiết lý do đổi trả hàng (Return Reason Codes) phân theo SKU.",
+        "Dữ liệu phản hồi & đánh giá của khách hàng (CSAT/Reviews) sau khi nhận sản phẩm.",
+        "Chi phí hoàn tất đơn hàng thực tế (reverse logistics & kho bãi) phát sinh ngoài dự kiến."
+      ]
+    },
+    {
+      "campaign_id": "CT2_LOYAL",
+      "campaign_name": "Tri Ân Khách Quen",
+      "decision": "DỪNG (DISCONTINUE)",
+      "decision_badge": "danger",
+      "primary_reason": "Lợi nhuận đóng góp âm (-927,914 đ) hoặc tỷ lệ hoàn hàng vượt ngưỡng báo động (26.7%).",
+      "financial_snapshot": {
+        "net_revenue": 2745000.0,
+        "contribution_margin": -927913.9276910434,
+        "contribution_margin_pct": -33.8,
+        "return_rate_pct": 26.7,
+        "roi_pct": -40.74,
+        "total_cost": 2277913.9276910434
+      },
+      "action_items": [
+        "Dừng ngay việc cấp ngân sách và đóng mã khuyến mãi trên tất cả các kênh.",
+        "Thu hồi tồn kho và điều tra nguyên nhân tỷ lệ trả hàng cao (do lỗi mô tả sản phẩm, chất lượng kỹ thuật hay giao vận chậm).",
+        "Rà soát lại toàn bộ hợp đồng KOL/quảng cáo để cắt giảm chi phí phát sinh."
+      ],
+      "data_needed": [
+        "Báo cáo chi tiết lý do đổi trả hàng (Return Reason Codes) phân theo SKU.",
+        "Dữ liệu phản hồi & đánh giá của khách hàng (CSAT/Reviews) sau khi nhận sản phẩm.",
+        "Chi phí hoàn tất đơn hàng thực tế (reverse logistics & kho bãi) phát sinh ngoài dự kiến."
+      ]
+    },
+    {
+      "campaign_id": "CT1_FLASH",
+      "campaign_name": "Flash Sale Mùa Hè",
+      "decision": "DỪNG (DISCONTINUE)",
+      "decision_badge": "danger",
+      "primary_reason": "Lợi nhuận đóng góp âm (-1,559,142 đ) hoặc tỷ lệ hoàn hàng vượt ngưỡng báo động (0.0%).",
+      "financial_snapshot": {
+        "net_revenue": 3825000.0,
+        "contribution_margin": -1559142.3582580118,
+        "contribution_margin_pct": -40.76,
+        "return_rate_pct": 0.0,
+        "roi_pct": -50.15,
+        "total_cost": 3109142.3582580118
+      },
+      "action_items": [
+        "Dừng ngay việc cấp ngân sách và đóng mã khuyến mãi trên tất cả các kênh.",
+        "Thu hồi tồn kho và điều tra nguyên nhân tỷ lệ trả hàng cao (do lỗi mô tả sản phẩm, chất lượng kỹ thuật hay giao vận chậm).",
+        "Rà soát lại toàn bộ hợp đồng KOL/quảng cáo để cắt giảm chi phí phát sinh."
+      ],
+      "data_needed": [
+        "Báo cáo chi tiết lý do đổi trả hàng (Return Reason Codes) phân theo SKU.",
+        "Dữ liệu phản hồi & đánh giá của khách hàng (CSAT/Reviews) sau khi nhận sản phẩm.",
+        "Chi phí hoàn tất đơn hàng thực tế (reverse logistics & kho bãi) phát sinh ngoài dự kiến."
+      ]
+    },
+    {
+      "campaign_id": "CT3_COMBO",
+      "campaign_name": "Combo Nhà Bếp Tiện Lợi",
+      "decision": "DỪNG (DISCONTINUE)",
+      "decision_badge": "danger",
+      "primary_reason": "Lợi nhuận đóng góp âm (-500,000 đ) hoặc tỷ lệ hoàn hàng vượt ngưỡng báo động (0.0%).",
+      "financial_snapshot": {
+        "net_revenue": 0.0,
+        "contribution_margin": -500000.0,
+        "contribution_margin_pct": 0.0,
+        "return_rate_pct": 0.0,
+        "roi_pct": -100.0,
+        "total_cost": 500000.0
+      },
+      "action_items": [
+        "Dừng ngay việc cấp ngân sách và đóng mã khuyến mãi trên tất cả các kênh.",
+        "Thu hồi tồn kho và điều tra nguyên nhân tỷ lệ trả hàng cao (do lỗi mô tả sản phẩm, chất lượng kỹ thuật hay giao vận chậm).",
+        "Rà soát lại toàn bộ hợp đồng KOL/quảng cáo để cắt giảm chi phí phát sinh."
+      ],
+      "data_needed": [
+        "Báo cáo chi tiết lý do đổi trả hàng (Return Reason Codes) phân theo SKU.",
+        "Dữ liệu phản hồi & đánh giá của khách hàng (CSAT/Reviews) sau khi nhận sản phẩm.",
+        "Chi phí hoàn tất đơn hàng thực tế (reverse logistics & kho bãi) phát sinh ngoài dự kiến."
+      ]
+    }
+  ],
+  "causal_analysis": {
+    "title": "Phân biệt Bản chất: Ghi nhận Kế toán (Rule-based Attribution) vs Bằng chứng Tác động Gia tăng Thực tế (Causal Uplift)",
+    "warning": "CẢNH BÁO PHƯƠNG PHÁP LUẬN: Tuyệt đối không đánh đồng 'Doanh thu ghi nhận theo mã khuyến mãi' với 'Chương trình làm doanh thu công ty tăng trưởng'!",
+    "explanation": "Các con số trong bảng P&L ở trên được tính toán dựa trên Quy tắc Kế toán Gán đơn (Rule-based Accounting Attribution), nghĩa là mọi đơn hàng có gắn mã voucher được ghi nhận doanh số cho chương trình đó. Tuy nhiên, điều này CHƯA PHẢI LÀ BẰNG CHỨNG NHÂN QUẢ (Causal Impact). Một lượng lớn khách hàng (đặc biệt là khách quen trong chương trình Tri Ân Khách Quen) vốn dĩ ĐÃ CÓ Ý ĐỊNH MUA HÀNG từ trước, và họ chỉ vô tình áp thêm mã voucher giảm giá (hiện tượng Tự ăn lấn doanh thu - Cannibalization / Deadweight Loss). Nếu không có nhóm đối chứng (Control Group), doanh nghiệp có thể đang 'đốt tiền' tặng voucher cho những đơn hàng vốn dĩ vẫn phát sinh!",
+    "requirements_for_causal_proof": [
+      "1. Thiết kế Thử nghiệm Ngẫu nhiên có Đối chứng (A/B Testing / Randomized Controlled Trial - RCT): Chia ngẫu nhiên khách hàng thành Nhóm thử nghiệm (nhận voucher) và Nhóm đối chứng (không nhận voucher hoặc nhận thông điệp thường).",
+      "2. Tính toán Doanh thu Tăng thêm Thuần (Incremental Revenue Lift): Lift = Doanh thu Nhóm thử nghiệm - Doanh thu Nhóm đối chứng.",
+      "3. So sánh với Doanh số Cơ sở (Baseline Sales): Đối chiếu xu hướng bán hàng của cùng kỳ các tháng trước để loại bỏ yếu tố mùa vụ (Seasonality) hoặc xu hướng thị trường chung.",
+      "4. Đánh giá Tác động Ăn lấn (Cannibalization Check): Đánh giá xem doanh số tăng ở nhóm sản phẩm khuyến mãi có làm tụt giảm doanh số của các sản phẩm nguyên giá cùng ngành hàng hay không."
+    ]
+  },
+  "audit_trail": [
+    {
+      "timestamp": "2026-11-11 15:23:59.779",
+      "step": "PIPELINE_START",
+      "action": "INITIALIZE",
+      "tool_name": "SalesEvaluationAgent",
+      "message": "Khởi động AI Agent Đánh giá Hiệu quả Chương trình Bán hàng - Công ty Gia Hòa",
+      "details": {
+        "tables_received": {
+          "transactions": 6,
+          "promotions": 7,
+          "products": 8,
+          "costs": 5
+        },
+        "multi_touch_rule": "PROPORTIONAL",
+        "overhead_method": "REVENUE_SHARE"
+      },
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-11 15:23:59.779",
+      "step": "TOOL_EXECUTION",
+      "action": "TOOL_CALL",
+      "tool_name": "clean_and_validate_data",
+      "message": "Đã gọi công cụ [clean_and_validate_data]",
+      "details": {
+        "inputs": {
+          "tables": [
+            "transactions",
+            "promotions",
+            "products",
+            "costs"
+          ]
+        },
+        "output_summary": "Bắt đầu kiểm tra tính toàn vẹn và chuẩn hóa dữ liệu"
+      },
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-11 15:23:59.784",
+      "step": "ANOMALY_DETECTION",
+      "action": "ANOMALY_DETECTED",
+      "tool_name": "AnomalyDetector",
+      "message": "Phát hiện ngoại lệ [PENDING_ALLOCATION_RULE] trên [CST_B5]: Chi phí chung [Phí thuê server và quản trị chung] (3,000,000 đ) chưa được phê duyệt tiêu thức phân bổ",
+      "details": {
+        "anomaly_type": "PENDING_ALLOCATION_RULE",
+        "item_id": "CST_B5",
+        "reason": "Chi phí chung [Phí thuê server và quản trị chung] (3,000,000 đ) chưa được phê duyệt tiêu thức phân bổ",
+        "suggested_action": "Cần Trưởng phòng duyệt tiêu thức phân bổ"
+      },
+      "level": "WARNING"
+    },
+    {
+      "timestamp": "2026-11-11 15:23:59.784",
+      "step": "RULE_EVALUATION",
+      "action": "RULE_APPLIED",
+      "tool_name": "RULE_CLEAN_01",
+      "message": "Áp dụng quy tắc [RULE_CLEAN_01] - Chuẩn hóa và Làm sạch dữ liệu: 6 bản ghi bị ảnh hưởng",
+      "details": {
+        "rule_id": "RULE_CLEAN_01",
+        "rule_name": "Chuẩn hóa và Làm sạch dữ liệu",
+        "condition": "Null checks & Type Casts",
+        "impact_count": 6,
+        "note": "Phát hiện 1 vấn đề ngoại lệ"
+      },
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-11 15:23:59.784",
+      "step": "TOOL_EXECUTION",
+      "action": "TOOL_CALL",
+      "tool_name": "reconcile_orders_and_returns",
+      "message": "Đã gọi công cụ [reconcile_orders_and_returns]",
+      "details": {
+        "inputs": {
+          "multi_touch_rule": "PROPORTIONAL",
+          "total_orders": 6
+        },
+        "output_summary": "Bắt đầu phân giải trùng lặp ưu đãi và khấu trừ hoàn hàng"
+      },
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-11 15:23:59.786",
+      "step": "RULE_EVALUATION",
+      "action": "RULE_APPLIED",
+      "tool_name": "RULE_RETURN_01",
+      "message": "Áp dụng quy tắc [RULE_RETURN_01] - Khấu trừ hàng trả trễ: 1 bản ghi bị ảnh hưởng",
+      "details": {
+        "rule_id": "RULE_RETURN_01",
+        "rule_name": "Khấu trừ hàng trả trễ",
+        "condition": "Trừ doanh thu 4,200,000đ vào CT4_SMART",
+        "impact_count": 1,
+        "note": ""
+      },
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-11 15:23:59.786",
+      "step": "ANOMALY_DETECTION",
+      "action": "ANOMALY_DETECTED",
+      "tool_name": "AnomalyDetector",
+      "message": "Phát hiện ngoại lệ [MULTI_TOUCH_CONFLICT] trên [ORD_B02]: Đơn hàng áp dụng đồng thời 2 chương trình: ['CT2_LOYAL', 'CT1_FLASH']",
+      "details": {
+        "anomaly_type": "MULTI_TOUCH_CONFLICT",
+        "item_id": "ORD_B02",
+        "reason": "Đơn hàng áp dụng đồng thời 2 chương trình: ['CT2_LOYAL', 'CT1_FLASH']",
+        "suggested_action": "Tách phân bổ theo quy tắc Proportional Split để tránh trùng lặp"
+      },
+      "level": "WARNING"
+    },
+    {
+      "timestamp": "2026-11-11 15:23:59.786",
+      "step": "RULE_EVALUATION",
+      "action": "RULE_APPLIED",
+      "tool_name": "RULE_DEDUP_01",
+      "message": "Áp dụng quy tắc [RULE_DEDUP_01] - Phân bổ khử trùng lặp đa kênh (Proportional): 1 bản ghi bị ảnh hưởng",
+      "details": {
+        "rule_id": "RULE_DEDUP_01",
+        "rule_name": "Phân bổ khử trùng lặp đa kênh (Proportional)",
+        "condition": "Chia đều cho ['CT2_LOYAL', 'CT1_FLASH']",
+        "impact_count": 1,
+        "note": ""
+      },
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-11 15:23:59.795",
+      "step": "TOOL_EXECUTION",
+      "action": "TOOL_CALL",
+      "tool_name": "calculate_campaign_financials",
+      "message": "Đã gọi công cụ [calculate_campaign_financials]",
+      "details": {
+        "inputs": {
+          "overhead_method": "REVENUE_SHARE"
+        },
+        "output_summary": "Bắt đầu tổng hợp P&L từng chương trình"
+      },
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-11 15:23:59.795",
+      "step": "RULE_EVALUATION",
+      "action": "RULE_APPLIED",
+      "tool_name": "RULE_ALLOC_01",
+      "message": "Áp dụng quy tắc [RULE_ALLOC_01] - Phân bổ chi phí chung theo REVENUE_SHARE: 4 bản ghi bị ảnh hưởng",
+      "details": {
+        "rule_id": "RULE_ALLOC_01",
+        "rule_name": "Phân bổ chi phí chung theo REVENUE_SHARE",
+        "condition": "Tổng chi phí chung 3,000,000 đ",
+        "impact_count": 4,
+        "note": ""
+      },
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-11 15:23:59.795",
+      "step": "TOOL_EXECUTION",
+      "action": "TOOL_CALL",
+      "tool_name": "evaluate_campaign_strategy",
+      "message": "Đã gọi công cụ [evaluate_campaign_strategy]",
+      "details": {
+        "inputs": {
+          "target_cm_pct": 15.0,
+          "max_return_rate_pct": 12.0
+        },
+        "output_summary": "Đánh giá tiêu chí biên đóng góp, tỷ lệ hoàn trả và ROI"
+      },
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-11 15:23:59.795",
+      "step": "RULE_EVALUATION",
+      "action": "RULE_APPLIED",
+      "tool_name": "RULE_DECISION_01",
+      "message": "Áp dụng quy tắc [RULE_DECISION_01] - Phân loại quyết định CT4_SMART: 1 bản ghi bị ảnh hưởng",
+      "details": {
+        "rule_id": "RULE_DECISION_01",
+        "rule_name": "Phân loại quyết định CT4_SMART",
+        "condition": "Kết luận: DỪNG (DISCONTINUE)",
+        "impact_count": 1,
+        "note": "Lợi nhuận đóng góp âm (-3,956,444 đ) hoặc tỷ lệ hoàn hàng vượt ngưỡng báo động (42.9%)."
+      },
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-11 15:23:59.795",
+      "step": "RULE_EVALUATION",
+      "action": "RULE_APPLIED",
+      "tool_name": "RULE_DECISION_01",
+      "message": "Áp dụng quy tắc [RULE_DECISION_01] - Phân loại quyết định CT2_LOYAL: 1 bản ghi bị ảnh hưởng",
+      "details": {
+        "rule_id": "RULE_DECISION_01",
+        "rule_name": "Phân loại quyết định CT2_LOYAL",
+        "condition": "Kết luận: DỪNG (DISCONTINUE)",
+        "impact_count": 1,
+        "note": "Lợi nhuận đóng góp âm (-927,914 đ) hoặc tỷ lệ hoàn hàng vượt ngưỡng báo động (26.7%)."
+      },
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-11 15:23:59.795",
+      "step": "RULE_EVALUATION",
+      "action": "RULE_APPLIED",
+      "tool_name": "RULE_DECISION_01",
+      "message": "Áp dụng quy tắc [RULE_DECISION_01] - Phân loại quyết định CT1_FLASH: 1 bản ghi bị ảnh hưởng",
+      "details": {
+        "rule_id": "RULE_DECISION_01",
+        "rule_name": "Phân loại quyết định CT1_FLASH",
+        "condition": "Kết luận: DỪNG (DISCONTINUE)",
+        "impact_count": 1,
+        "note": "Lợi nhuận đóng góp âm (-1,559,142 đ) hoặc tỷ lệ hoàn hàng vượt ngưỡng báo động (0.0%)."
+      },
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-11 15:23:59.795",
+      "step": "RULE_EVALUATION",
+      "action": "RULE_APPLIED",
+      "tool_name": "RULE_DECISION_01",
+      "message": "Áp dụng quy tắc [RULE_DECISION_01] - Phân loại quyết định CT3_COMBO: 1 bản ghi bị ảnh hưởng",
+      "details": {
+        "rule_id": "RULE_DECISION_01",
+        "rule_name": "Phân loại quyết định CT3_COMBO",
+        "condition": "Kết luận: DỪNG (DISCONTINUE)",
+        "impact_count": 1,
+        "note": "Lợi nhuận đóng góp âm (-500,000 đ) hoặc tỷ lệ hoàn hàng vượt ngưỡng báo động (0.0%)."
+      },
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-11 15:23:59.795",
+      "step": "HUMAN_IN_THE_LOOP",
+      "action": "HUMAN_DECISION",
+      "tool_name": "CHECKPOINT_1_EXCEPTIONS",
+      "message": "Con người can thiệp tại [CHECKPOINT_1_EXCEPTIONS]: Có 3 vấn đề ngoại lệ cần Trưởng phòng Kinh doanh xem xét và phê duyệt. (Bởi: Trưởng phòng Kinh doanh)",
+      "details": {
+        "checkpoint": "CHECKPOINT_1_EXCEPTIONS",
+        "decision": "Có 3 vấn đề ngoại lệ cần Trưởng phòng Kinh doanh xem xét và phê duyệt.",
+        "applied_by": "Trưởng phòng Kinh doanh"
+      },
+      "level": "ACTION_REQUIRED"
+    }
+  ]
+}

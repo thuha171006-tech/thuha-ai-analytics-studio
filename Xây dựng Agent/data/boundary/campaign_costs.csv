@@ -1,0 +1,6 @@
+﻿cost_id,campaign_id,cost_type,description,amount,allocation_rule
+CST_B1,CT1_FLASH,DIRECT,Flash sale Ads,1500000,Direct to CT1
+CST_B2,CT2_LOYAL,DIRECT,Quà tặng VIP,800000,Direct to CT2
+CST_B3,CT3_COMBO,DIRECT,Thiết kế POSM,500000,Direct to CT3
+CST_B4,CT4_SMART,DIRECT,Livestream KOL,3500000,Direct to CT4
+CST_B5,ALL,OVERHEAD,Phí thuê server và quản trị chung,3000000,Pending Approval
